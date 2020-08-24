@@ -1,0 +1,38 @@
+@import 'config';
+@import 'header';
+@import 'mockup';
+@import 'community';
+@import 'section-top1';
+@import 'growth';
+@import 'section-bottom1';
+@import 'conversations';
+@import 'section-top2';
+@import 'users';
+@import 'section-bottom2';
+@import 'build-call';
+@import 'footer-top';
+@import 'footer';
+@import 'responsive';
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: $Text-Font;
+ font-weight: 600;
+ color: #131313;
+ line-height: 1.2rem;
+}
+
+h1, h2 {
+ color: #1e1e1e;
+ font-family: $Header-Font;
+}
+
+.wrapper {
+ width: 100%;
+}
+

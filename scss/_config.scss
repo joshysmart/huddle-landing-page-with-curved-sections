@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+$button-pink: hsl(322, 100%, 66%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pale-Blue: hsl(207, 100%, 98%);
+$Text-Font: 'Open Sans', sans-serif;
+$Header-Font: 'Poppins', sans-serif;
+
+@mixin section-display($direction) {
+ display: flex;
+ flex-direction: $direction;
+ align-items: center;
+ justify-content: center;
+ background: $Very-Pale-Blue; 
+}
+
+@mixin button() {
+ color: #fff;
+ padding: .6rem 2rem;
+ font-family: $Text-Font;
+ font-weight: 600;
+ border-radius: 4rem;
+ border: 1px solid $button-pink;
+ background: $button-pink;
+ box-shadow: 0 .5rem 1rem -.5rem #161616;
+}
+
+@mixin wave {
+ width: 100%;
+ margin-bottom: -5px;
+
+ img {
+  width: 100%;
+ }
+}
+
+
+@mixin  media-md-display {
+ padding: 0 3rem;
+}
+
+@mixin  media-lg-display {
+ flex-direction: row;
+ justify-content: space-around;
+ padding: 0 5rem;
+}
+
+@mixin  media-xl-display {
+ flex-direction: row;
+ justify-content: space-around;
+ padding: 5rem 5rem;
+}
+
+@mixin  media-md-text {
+ h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+ }
+
+ p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+ }
+}
+
+@mixin  media-lg-text {
+ text-align: left;
+
+ h2 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+ }
+
+ p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+ }
+}
+
+@mixin  media-xl-text {
+ text-align: left;
+
+ h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  line-height: 2.5rem;
+ }
+
+ p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+ }
+}
+
+@mixin media-md {
+ @media only screen and (min-width: 768px) {
+  @content;
+ }
+}
+
+@mixin media-lg {
+ @media only screen and (min-width: 1024px) {
+  @content;
+ }
+}
+
+@mixin media-xl {
+ @media only screen and (min-width: 1440px) {
+  @content;
+ }
+}
