@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="375"
+   height="53"
+   version="1.1"
+   id="svg1454"
+   sodipodi:docname="bg-footer-top-mobile.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1458">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview1456"
+     showgrid="false"
+     inkscape:zoom="0.96266667"
+     inkscape:cx="149.79317"
+     inkscape:cy="26.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1454" />
+  <defs
+     id="defs1443">
+    <path
+       id="a"
+       d="M0 0h375v53H0z" />
+  </defs>
+  <g
+     id="g1452"
+     fill-rule="evenodd"
+     fill="none">
+    <mask
+       id="b"
+       fill="#fff">
+      <use
+         xlink:href="#a"
+         id="use1445" />
+    </mask>
+    <g
+       mask="url(#b)"
+       id="g1450"
+       fill="#00252E">
+      <path
+         d="M0 20.756c57.764-25.65 127.028-25.65 207.792 0C328.938 59.229 332.12 25.58 375.022.696 403.624-15.893 429.283 263.876 452 840H0V20.756z"
+         id="path1448" />
+    </g>
+  </g>
+</svg>
