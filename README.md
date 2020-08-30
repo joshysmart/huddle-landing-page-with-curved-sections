@@ -10,4 +10,4 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
-View [solution](https://huddle-landing-page-with-curved-sections-m1fsq6x3w.vercel.app/)
+View [solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-built-using-sass-nxY3sT-S2/preview/)
